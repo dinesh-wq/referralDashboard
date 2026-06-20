@@ -9,9 +9,9 @@ import {
   FaHourglassHalf,
   FaPercent,
   FaUsers,
-  FaMoneyBillTransfer,
+  FaMoneyBillWave,
   FaRegCopyright,
-} from 'react-icons/fa6'
+} from 'react-icons/fa'
 import {useState, useEffect} from 'react'
 
 const status = {
@@ -120,7 +120,7 @@ const Home = () => {
   <FaPercent />,
   <FaDollarSign />,
   <FaUsers />,
-  <FaMoneyBillTransfer />,
+  <FaMoneyBillWave />,
 ]
 
   const presentFeferrals = referrals.slice(index, index+10)
