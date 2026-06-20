@@ -34,7 +34,6 @@ const Home = () => {
   const [referrals, setReferrals] = useState([])
   const [pageStatus, setPageStatus] = useState(status.loading)
   const [search, setSearch] = useState('')
-  const [inputValue, setInputValue] = useState('')
   const [sort, setSort] = useState('desc')
   const [index, setIndex] = useState(0)
 
@@ -212,7 +211,6 @@ const Home = () => {
               id="searchInput"
               type="search"
               placeholder="Name or service..."
-              onChange={(event) => setInputValue(event.target.value)}
               onKeyDown={updateSearch}
             />
           </div>
