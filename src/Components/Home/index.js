@@ -6,9 +6,9 @@ import {
   FaDollarSign,
   FaCreditCard,
   FaLink,
-  FaRegHourglassHalf,
+  FaHourglassHalf,
   FaPercent,
-  FaUserGroup,
+  FaUsers,
   FaMoneyBillTransfer,
   FaRegCopyright,
 } from 'react-icons/fa6'
@@ -114,15 +114,15 @@ const Home = () => {
   )
 
   const icons = [
-    <FaDollarSign />,
-    <FaCreditCard />,
-    <FaLink />,
-    <FaRegHourglassHalf />,
-    <FaPercent />,
-    <FaDollarSign />,
-    <FaUserGroup />,
-    <FaMoneyBillTransfer />,
-  ]
+  <FaDollarSign />,
+  <FaCreditCard />,
+  <FaLink />,
+  <FaHourglassHalf />,
+  <FaPercent />,
+  <FaDollarSign />,
+  <FaUsers />,
+  <FaMoneyBillTransfer />,
+]
 
   const presentFeferrals = referrals.slice(index, index+10)
   const renderBody = () => (

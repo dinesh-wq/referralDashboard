@@ -23,7 +23,7 @@ const Login = () => {
         const data = await response.json()
         if (response.ok) {
             console.log(data)
-            Cookies.set('token', data.data.token)
+            Cookies.set('token', data.data.token, {expires: 7})
             navigate('/')
         } else {
             setErrorMessage(data.message)
